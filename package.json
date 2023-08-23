@@ -1,5 +1,21 @@
 {
+  "name": "svg-logo-maker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
   "dependencies": {
-    "inquirer": "^9.2.10"
-  }
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies":{
+  "jest": "^29.6.3"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
 }

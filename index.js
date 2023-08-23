@@ -3,7 +3,7 @@ const inquirer = require('inquirer');
 // File system import
 const fs = require('fs');
 // Shape classes from ./lib directory
-const { Triangle, Square, Circle } = require('./lib');
+const { Triangle, Square, Circle } = require('./lib/shapes');
 
 // writes svg file using user imputs 
 function writeToFile(fileName, answers) {
