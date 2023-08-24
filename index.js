@@ -1,7 +1,9 @@
 // Inquirer import
 const inquirer = require('inquirer');
+
 // File system import
 const fs = require('fs');
+
 // Shape classes from ./lib directory
 const { Triangle, Square, Circle } = require('./lib/shapes');
 
@@ -41,7 +43,7 @@ function promptUser() {
     .prompt([
         {
             type: 'input',
-            message: 'What would you like to display in your logo? (Choose up to 3 letters)',
+            message: 'What would you like to display in your logo? (Enter up to 3 characters)',
             name: 'text',
         },
         {
